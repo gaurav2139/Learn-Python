@@ -7,7 +7,7 @@ Data types:
 Int, float, strings
 String can be written under single quotation or double quotation, it's better to use single quotes for strings as print statement has double indentation.
 
-Lists:
+**Lists:**
 
 Lists are all similar to array but they can contain different data type inside the lists.
 
@@ -22,24 +22,24 @@ Because lists are sequences, indexing and slicing work the same way for lists as
 Assuming following input −
 L = ['spam', 'Spam', 'SPAM!']
 
-Built-in List Functions & Methods
+**Built-in List Functions & Methods**
+
 Python includes the following list functions −Function with Description 
+1. cmp(list1, list2) : Compares elements of both lists.
+2. len(list) : Gives the total length of the list.
+3. max(list) : Returns item from the list with max value.
+4. min(list) : Returns item from the list with min value.
+5. list(seq) : Converts a tuple into list.
 
-1 cmp(list1, list2) : Compares elements of both lists.
-2 len(list) : Gives the total length of the list.
-3 max(list) : Returns item from the list with max value.
-4 min(list) : Returns item from the list with min value.
-5 list(seq) : Converts a tuple into list.
 
+**Python includes following list methods--Methods with Description** 
 
-Python includes following list methods--Methods with Description 
-
-list.append(obj) : Appends object obj to list
-list.count(obj) : Returns count of how many times obj occurs in list
-list.extend(seq) : Appends the contents of seq to lis
-list.index(obj) : Returns the lowest index in list that obj appears
-list.insert(index, obj) : Inserts object obj into list at offset index
-list.pop(obj=list[-1]) : Removes and returns last object or obj from list
-list.remove(obj) : Removes object obj from list
-list.reverse() : Reverses objects of list in place
-list.sort([func]) : Sorts objects of list, use compare func if given
+1. list.append(obj) : Appends object obj to list
+2. list.count(obj) : Returns count of how many times obj occurs in list
+3. list.extend(seq) : Appends the contents of seq to list
+4. list.index(obj) : Returns the lowest index in list that obj appears
+5. list.insert(index, obj) : Inserts object obj into list at offset index
+6. list.pop(obj=list[-1]) : Removes and returns last object or obj from list
+7. list.remove(obj) : Removes object obj from list
+8. list.reverse() : Reverses objects of list in place
+9. list.sort([func]) : Sorts objects of list, use compare func if given
