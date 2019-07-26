@@ -43,6 +43,3 @@ Python includes following list methods--Methods with Description
 7 list.remove(obj) : Removes object obj from list
 8 list.reverse() : Reverses objects of list in place
 9 list.sort([func]) : Sorts objects of list, use compare func if given
-
-
-
