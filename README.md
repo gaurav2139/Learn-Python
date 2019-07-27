@@ -2,9 +2,11 @@
 
 Contents of the Learn-Python are taken from different sources online and boiled down to crisp topics. You may refer learnpython.com and tutorialspoint.com for more information.
 
-Data types:
+**Data types:**
 
-Int, float, strings
+Some of the data type that uses are int, float, strings.
+An integer can be assigned by assigning value to a variable, Flaot can be also assigned like int but only thing that changes in float is the decimal representation. For example --> x = 54.66
+
 String can be written under single quotation or double quotation, it's better to use single quotes for strings as print statement has double indentation.
 
 **Lists:**
@@ -43,3 +45,30 @@ Python includes the following list functions −Function with Description
 7. list.remove(obj) : Removes object obj from list
 8. list.reverse() : Reverses objects of list in place
 9. list.sort([func]) : Sorts objects of list, use compare func if given
+
+**Conditions**
+
+Python uses boolean values to check if the condition is right or wrong. The boolean values return true or false, whenever an expression is evaluated.
+
+Here's a sample:
+
+1. x = 2
+2. print(x == 2) # prints out True
+3. print(x == 3) # prints out False
+4. print(x < 3) # prints out True
+
+Single equals (=) operator is for assigning a value, Double equals (==) operator is for comapring value and (!=) represents not equal to operator.
+
+One more type of operator is 'in' operator, it checks whether a specified object exits within a iterable object container. Here's an example:
+
+name = "Rocky"<br/>
+if name in ["John", "Rick"]:<br/>
+    print("Your name is either John or Rick.")<br/>.
+else:<br/>
+    print("Your name is Rocky.")<br/>
+ 
+In the above example Rocky is assigned to name and the if condition checks whether Rocky is in the list, if it exits it prints the 'if statement', if not it prints the else statement. Here the above statment prints the else statement.
+
+
+
+
