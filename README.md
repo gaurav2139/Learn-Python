@@ -1,4 +1,4 @@
-# Learn-Python
+﻿# Learn-Python
 
 Contents of the Learn-Python are taken from different sources online and boiled down to crisp topics. You may refer learnpython.com and tutorialspoint.com for more information.
 
@@ -68,6 +68,8 @@ else:<br/>
     print("Your name is Rocky.")<br/>
  
 In the above example Rocky is assigned to name and the if condition checks whether Rocky is in the list, if it exits it prints the 'if statement', if not it prints the else statement. Here the above statment prints the else statement.
+
+THE END
 
 
 
